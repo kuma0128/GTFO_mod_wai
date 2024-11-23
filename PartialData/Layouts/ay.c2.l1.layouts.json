@@ -134,7 +134,7 @@
                 "Middle": 0.0,
                 "End": 1000.0
             },
-            "WeaponAmmoMulti": 0.2,
+            "WeaponAmmoMulti": 0.0,
             "WeaponAmmoPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
@@ -628,15 +628,15 @@
             "DumbwaiterPlacements": [],
             "HealthMulti": 0.4,
             "HealthPlacement": {
-                "Start": 100.0,
+                "Start": 0.0,
                 "Middle": 0.0,
                 "End": 0.0
             },
-            "WeaponAmmoMulti": 0.6,
+            "WeaponAmmoMulti": 0.8,
             "WeaponAmmoPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
-                "End": 100.0
+                "End": 0.0
             },
             "ToolAmmoMulti": 0.0,
             "ToolAmmoPlacement": {
@@ -1926,7 +1926,7 @@
             "AllowSmallPickupsAllocation": true,
             "AllowResourceContainerAllocation": true,
             "ForceBigPickupsAllocation": false,
-            "ConsumableDistributionInZone": 10,
+            "ConsumableDistributionInZone": 34,
             "BigPickupDistributionInZone": 0,
             "TerminalPlacements": [
                 {
@@ -2062,7 +2062,7 @@
             "AllowSmallPickupsAllocation": true,
             "AllowResourceContainerAllocation": true,
             "ForceBigPickupsAllocation": false,
-            "ConsumableDistributionInZone": 10,
+            "ConsumableDistributionInZone": 0,
             "BigPickupDistributionInZone": 0,
             "TerminalPlacements": [
                 {}

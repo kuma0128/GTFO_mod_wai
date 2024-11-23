@@ -2,11 +2,84 @@
   "MainLevelLayout": "Anarchy_D2_L1",
   "Puzzles": [
     {
-      "Index": 56,
+      "Index": 21,
       "Position": {
-        "x": 0.3676,
-        "y": 0.2444,
-        "z": 90.0528
+        "x": -0.0110,
+        "y": 3.0413,
+        "z": 328.4909
+      },
+      "HideSpline": false
+    },
+    {
+      "Index": 22,
+      "Position": {
+        "x": 24.0364,
+        "y": 2.9670,
+        "z": 303.7505
+      },
+      "HideSpline": false
+    },
+    { // cluster core
+      "Index": 23,
+      "HideSpline": true,
+      "ConcurrentCluster": true,
+      "Position": {
+        "x": 5.72,
+        "y": 2.9536,
+        "z": 319.4511
+      }
+    },
+    { // cluster child 1
+      "Index": 24,
+      "Position": {
+        "x": 10.5000,
+        "y": 3.12100,
+        "z": 335.5000
+      },
+      "HideSpline": false
+    },
+    { // cluster child 2
+      "Index": 25,
+      "Position": {
+        "x": -3.4055,
+        "y": 3.0082,
+        "z": 332.8765
+      },
+      "HideSpline": false
+    },
+    { // cluster child 3
+      "Index": 26,
+      "Position": {
+        "x": 3.6742,
+        "y": 3.0413,
+        "z": 327.8275
+      },
+      "HideSpline": false
+    },
+    { // cluster child 4
+      "Index": 27,
+      "Position": {
+        "x": 8.4020,
+        "y": 3.0180,
+        "z": 320.2720
+      },
+      "HideSpline": false
+    },
+    { // cluster child 5
+      "Index": 28,
+      "Position": {
+        "x": -27.4724,
+        "y": 6.8885,
+        "z": 321.6244
+      },
+      "HideSpline": false
+    },
+    { // cluster child 6
+      "Index": 29,
+      "Position": {
+        "x": 16.2831,
+        "y": 2.9236,
+        "z": 338.8961
       },
       "HideSpline": false
     }

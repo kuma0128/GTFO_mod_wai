@@ -742,7 +742,7 @@
     },
     {
       "Enabled": true,
-      "Accessibility": 1,
+      "Accessibility": 0,
       "UnlockedByExpedition": {
         "Tier":2,
         "Exp": 0

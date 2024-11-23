@@ -1,34 +1,42 @@
 # Rundown Anarchy
 
-- Hey there! Anarchy is a vanilla rundown featuring various dimensions, demanding excellent teamwork and gaming skills. True to its name, you'll need to combat anarchy and disadvantages. I've crafted unique and challenging levels based on my experiences with Rundowns 6 and 7. It has been adjusted to a difficulty higher than R8.
+- Hello there! Anarchy is a vanilla rundown featuring diverse dimensions that demand excellent teamwork and gaming skills. This mod is highly challenging, with a focus on close-quarters combat and aggressive gameplay. This design reflects my preference for chaotic battles that require strategic thinking. True to its name, you'll face chaos and challenges that require careful strategy. I've crafted unique and difficult levels inspired by my experiences with Rundowns 6 and 7. The difficulty has been adjusted to exceed R8.
 
-- For the complete Anarchy experience, I suggest playing without the use of any boosters, glitchs, cheats or other mods.
+- For the complete Anarchy experience, I recommend playing without using boosters, glitches, cheats, or other mods.
 
-- All levels are possible to clear. My team has cleared them without boosters. There are no secret strategies known only to the developers, so please do your best.
+- All levels are possible to clear. My team has completed them without using boosters. There are no secret strategies known only to the developers, so give it your all!
 
-Thank you for playing! Enjoy the fight!  
+Thank you for playing! Enjoy the fight!
 
-Special thanks to my team(Scotch, Jonino, Cross) and friends.
+Special thanks to my team (Scotch, Jonino, Cross) and friends.
 
 ## VERSION
 
+```1.1.0```
+
+- Added Owl Rifle
+- Added useful plugins
+- C2
+  - Changed resourse positions
+    - The difficulty level remains unchanged.
+- D2
+  - Fixed scan positions
+    - The difficulty level remains unchanged.
+- D3
+  - Release!!
+
 ```1.0.1```
 
-- Added some convenience plugins
-
-```1.0.0```
-
-- Added a BetterDoorBulletCollision plugin
-- Due to being busy with personal matters, I will suspend development and release it as is. Regarding D3, if there is high demand, I will make it available.
+- Added useful plugins
 
 ## Rundown Trailer
 
-- Short Trailer 1 <https://youtu.be/xyYnDYv4LIw>
-- Short Trailer 2 <https://youtu.be/03U_8CCKJdQ>
+- Short Trailer 1: <https://youtu.be/xyYnDYv4LIw>
+- Short Trailer 2: <https://youtu.be/03U_8CCKJdQ>
 
 ## WEAPON
 
-Almost weapons is based on R8.
+Most weapons are based on R8. Here are the modifications:
 
 - Sniper Rifle
   - Increased ammo capacity(3/12)
@@ -55,7 +63,7 @@ Almost weapons is based on R8.
 
 ## NOTE
 
-- If the game cannot be started or if an error occurs, please try to recreate a r2modman profile.
+- If the game fails to start or an error occurs, please try recreating your r2modman profile.
 
 ## Collaborator
 
@@ -67,6 +75,7 @@ Icon: Van Gogh
 
 ## Contact
 
-If you have any suggestions, impressions or find bugs, pls contact me via  
-Anarchy feedback channel(GTFO Modding Server) or  
-my discord ID: waiwaichan#9004 (not waiwichan).
+If you have suggestions, feedback, or bug reports, feel free to contact me via:
+
+- Anarchy Feedback Channel (GTFO Modding Server)
+- Discord: waiwaichan#9004 (please note: not "waiwichan")

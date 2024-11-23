@@ -1,5 +1,11 @@
 # CHANGELOG
 
+```1.0.0```
+
+- Added the BetterDoorBulletCollision plugin
+- Due to personal commitments, development will be paused, and the rundown will be released as-is.
+If there is significant demand for D3, I will consider making it available in the future.
+
 ```0.4.27```
 
 - Refactored codes

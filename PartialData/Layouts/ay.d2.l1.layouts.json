@@ -1891,13 +1891,13 @@
                 "Middle": 0.0,
                 "End": 0.0
             },
-            "WeaponAmmoMulti": 3.0,
+            "WeaponAmmoMulti": 2.8,
             "WeaponAmmoPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
                 "End": 0.0
             },
-            "ToolAmmoMulti": 0.6,
+            "ToolAmmoMulti": 0.4,
             "ToolAmmoPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
@@ -2271,7 +2271,7 @@
                 "Middle": 0.0,
                 "End": 0.0
             },
-            "WeaponAmmoMulti": 2.4,
+            "WeaponAmmoMulti": 2.0,
             "WeaponAmmoPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
@@ -2574,7 +2574,7 @@
                 "Middle": 0.0,
                 "End": 0.0
             },
-            "WeaponAmmoMulti": 2.0,
+            "WeaponAmmoMulti": 1.6,
             "WeaponAmmoPlacement": {
                 "Start": 100.0,
                 "Middle": 0.0,
@@ -2681,17 +2681,11 @@
                     "GroupType": 2,
                     "Difficulty": 2,
                     "Distribution": 2,
-                    "DistributionValue": 0.5
-                },
-                {
-                    "GroupType": 1,
-                    "Difficulty": 0,
-                    "Distribution": 1,
                     "DistributionValue": 1.0
                 },
                 {
                     "GroupType": 1,
-                    "Difficulty": 5,
+                    "Difficulty": 0,
                     "Distribution": 1,
                     "DistributionValue": 1.0
                 }
