@@ -802,6 +802,16 @@
     ],
     "CustomGeomorphs_Objective_1x1": [
         {
+            "Prefab": "Assets/Custom Geo's/Digsite/Disite generator/Digsite_X_Tile_Generator.prefab",
+            "SubComplex": 5,
+            "Shard": "S1"
+        },
+        {
+            "Prefab": "Assets/Bundles/RLC_Mining/geo_64x64_mining_refinery_X_RLC_01.prefab",
+            "SubComplex": 5,
+            "Shard": "S1"
+        },
+        {
             "Prefab": "Assets/Bundles/RLC_Mining/geo_64x64_mining_storage_I_RLC_01.prefab",
             "SubComplex": 5,
             "Shard": "S1"
