@@ -24,7 +24,7 @@
     "AllClearedSectors": 0
   },
   "StorytellingData": {
-    "Title": "Rundown Anarchy 1.0.1",
+    "Title": "Rundown Anarchy 1.1.0",
     "TextLog": "Development: waiwaichan",
     "TextLogPos": {
       "x": 0.0,
@@ -735,8 +735,8 @@
         "WeakResourceContainerWithPackChanceForLocked": -1.0,
         "InfectionLevelAtExpeditionStart": 0.0,
         "HealthLevelAtExpeditionStart": 1.0,
-        "StandardAmmoAtExpeditionStart": 0.25,
-        "SpecialAmmoAtExpeditionStart": 1.0,
+        "StandardAmmoAtExpeditionStart": 0.20,
+        "SpecialAmmoAtExpeditionStart": 0.9,
         "ToolAmmoAtExpeditionStart": 1.0
       }
     },
@@ -793,7 +793,7 @@
       },
       "LevelLayoutData": "Anarchy_D3_L1",
       "MainLayerData": {
-        "ZoneAliasStart": 488,
+        "ZoneAliasStart": 588,
         "ZonesWithBulkheadEntrance": [
           8
         ],
@@ -827,7 +827,7 @@
               "Weights": {
                 "Start": 0.0,
                 "Middle": 0.0,
-                "End": 100.0
+                "End": 10000.0
               }
             }
           ],
@@ -838,7 +838,7 @@
               "Weights": {
                 "Start": 0.0,
                 "Middle": 0.0,
-                "End": 100.0
+                "End": 10000.0
               }
             }
           ]
@@ -882,7 +882,7 @@
         "Zone": 9
       },
       "SecondaryLayerData": {
-        "ZoneAliasStart": 610,
+        "ZoneAliasStart": 710,
         "ZonesWithBulkheadEntrance": [],
         "BulkheadDoorControllerPlacements": [],
         "BulkheadKeyPlacements": [],
@@ -918,7 +918,7 @@
         "Zone": 7
       },
       "ThirdLayerData": {
-        "ZoneAliasStart": 705,
+        "ZoneAliasStart": 722,
         "ZonesWithBulkheadEntrance": [],
         "BulkheadDoorControllerPlacements": [],
         "BulkheadKeyPlacements": [
@@ -929,7 +929,7 @@
               "Weights": {
                 "Start": 0.0,
                 "Middle": 0.0,
-                "End": 100.0
+                "End": 10000.0
               }
             }
           ]
@@ -980,7 +980,7 @@
   "TierD": [
     {
       "Enabled": true,
-      "Accessibility": 1,
+      "Accessibility": 3,
       "UnlockedByExpedition": {
         "Tier": 2,
         "Exp": 0
@@ -1186,7 +1186,7 @@
     },
     {
       "Enabled": true,
-      "Accessibility": 1,
+      "Accessibility": 3,
       "UnlockedByExpedition": {
         "Tier": 2,
         "Exp": 0
@@ -1329,7 +1329,7 @@
   "TierE": [
     {
       "Enabled": true,
-      "Accessibility": 1,
+      "Accessibility": 3,
       "UnlockedByExpedition": {
         "Tier": 2,
         "Exp": 0
@@ -1341,8 +1341,8 @@
         "AllClearedSectors": 0
       },
       "Descriptive": {
-        "Prefix": "ROOT",
-        "PublicName": "Cosmos",
+        "Prefix": "%_1",
+        "PublicName": "X",
         "SkipExpNumberInName": true,
         "ProgressionVisualStyle": 1,
         "ExpeditionDepth":3333,
