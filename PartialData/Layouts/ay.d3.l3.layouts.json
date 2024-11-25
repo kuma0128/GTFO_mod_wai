@@ -40,7 +40,7 @@
                 "PlacementCount": 1,
                 "ZonePlacementData": []
             },
-            "ChainedPuzzleToEnter": 139,
+            "ChainedPuzzleToEnter": 0,
             "IsCheckpointDoor": false,
             "PlayScannerVoiceAudio": true,
             "SkipAutomaticProgressionObjective": false,
@@ -398,6 +398,7 @@
             "StaticSpawnDataContainers": []
         }
     ],
+    "ZoneAliasStart": 722,
     "name": "Anarchy_D3_L3",
     "internalEnabled": true,
     "persistentID": "Anarchy_D3_L3",

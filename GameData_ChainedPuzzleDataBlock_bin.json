@@ -3204,75 +3204,24 @@
       "persistentID": 187
     },
     {
-      "PublicAlarmName": "Class S XX Alarm",
+      "PublicAlarmName": "Class S III Alarm",
       "TriggerAlarmOnActivate": true,
       "SurvivalWaveSettings": 1,
       "SurvivalWavePopulation": 5,
       "SurvivalWaveAreaDistance": 1,
       "DisableSurvivalWaveOnComplete": false,
-      "UseRandomPositions": true,
+      "UseRandomPositions": false,
       "WantedDistanceFromStartPos": 22.0,
       "WantedDistanceBetweenPuzzleComponents": 13.0,
       "ChainedPuzzle": [
         {
-          "PuzzleType": 14
+          "PuzzleType": 13
         },
         {
-          "PuzzleType": 4
+          "PuzzleType": 13
         },
         {
-          "PuzzleType": 2
-        },
-        {
-          "PuzzleType": 14
-        },
-        {
-          "PuzzleType": 2
-        },
-        {
-          "PuzzleType": 4
-        },
-        {
-          "PuzzleType": 14
-        },
-        {
-          "PuzzleType": 4
-        },
-        {
-          "PuzzleType": 2
-        },
-        {
-          "PuzzleType": 14
-        },
-        {
-          "PuzzleType": 2
-        },
-        {
-          "PuzzleType": 4
-        },
-        {
-          "PuzzleType": 14
-        },
-        {
-          "PuzzleType": 4
-        },
-        {
-          "PuzzleType": 2
-        },
-        {
-          "PuzzleType": 14
-        },
-        {
-          "PuzzleType": 2
-        },
-        {
-          "PuzzleType": 4
-        },
-        {
-          "PuzzleType": 14
-        },
-        {
-          "PuzzleType": 14
+          "PuzzleType": 13
         }
       ],
       "OnlyShowHUDWhenPlayerIsClose": false,

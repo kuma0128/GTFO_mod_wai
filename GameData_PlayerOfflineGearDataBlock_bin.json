@@ -30,6 +30,13 @@
       "persistentID": 46
     },
     {
+      "Type": 2,
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Malatack HXC I <color=#FF4500>[TR]</color>\",\"Packet\":{\"Comps\":{\"Length\":18,\"a\":{\"c\":1,\"v\":2},\"b\":{\"c\":2,\"v\":22},\"c\":{\"c\":3,\"v\":109},\"d\":{\"c\":4,\"v\":1},\"e\":{\"c\":5,\"v\":42},\"f\":{\"c\":6,\"v\":3},\"g\":{\"c\":7,\"v\":2},\"h\":{\"c\":8,\"v\":17},\"i\":{\"c\":9,\"v\":6},\"j\":{\"c\":10,\"v\":12},\"k\":{\"c\":11,\"v\":12},\"l\":{\"c\":12,\"v\":28},\"m\":{\"c\":16,\"v\":9},\"n\":{\"c\":19,\"v\":3},\"o\":{\"c\":21,\"v\":16},\"p\":{\"c\":23,\"v\":1},\"q\":{\"c\":25,\"v\":5}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.045,\"y\":0.025,\"normalized\":{\"x\":0.8741573,\"y\":0.48564294,\"magnitude\":1.0,\"sqrMagnitude\":1.00000012},\"magnitude\":0.05147815,\"sqrMagnitude\":0.00265000015},\"angle\":90.0,\"scale\":0.1},\"tDecalB\":{\"position\":{\"x\":0.05,\"y\":0.03,\"normalized\":{\"x\":0.857493,\"y\":0.51449573,\"magnitude\":1.0,\"sqrMagnitude\":1.00000012},\"magnitude\":0.0583095178,\"sqrMagnitude\":0.0034},\"angle\":90.0,\"scale\":0.1},\"tPattern\":{\"position\":{\"x\":0.05,\"y\":0.03,\"normalized\":{\"x\":0.857493,\"y\":0.51449573,\"magnitude\":1.0,\"sqrMagnitude\":1.00000012},\"magnitude\":0.0583095178,\"sqrMagnitude\":0.0034},\"angle\":-90.0,\"scale\":0.1}},\"publicName\":{\"data\":\"Malatack HXC <color=#FF4500>[TR]</color>\"}}}",
+      "name": "RifleHeavyAuto_t",
+      "internalEnabled": true,
+      "persistentID": 146
+    },
+    {
       "Type": 1,
       "GearJSON": "{\"Ver\":1,\"Name\":\"Bataldo 3RB\",\"Packet\":{\"Comps\":{\"Length\":16,\"a\":{\"c\":1,\"v\":1},\"b\":{\"c\":2,\"v\":23},\"c\":{\"c\":3,\"v\":108},\"d\":{\"c\":4,\"v\":42},\"e\":{\"c\":5,\"v\":29},\"f\":{\"c\":6,\"v\":29},\"g\":{\"c\":7,\"v\":2},\"h\":{\"c\":8,\"v\":19},\"i\":{\"c\":9,\"v\":10},\"j\":{\"c\":10,\"v\":17},\"k\":{\"c\":11,\"v\":17},\"l\":{\"c\":12,\"v\":35},\"m\":{\"c\":16,\"v\":17},\"n\":{\"c\":19,\"v\":15},\"o\":{\"c\":25,\"v\":3}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.115,\"y\":-0.02,\"normalized\":{\"x\":0.9852118,\"y\":-0.171341166,\"magnitude\":1.0,\"sqrMagnitude\":1.00000012},\"magnitude\":0.116726175,\"sqrMagnitude\":0.0136250006},\"angle\":45.0,\"scale\":0.05},\"tDecalB\":{\"position\":{\"x\":0.115,\"y\":-0.02,\"normalized\":{\"x\":0.9852118,\"y\":-0.171341166,\"magnitude\":1.0,\"sqrMagnitude\":1.00000012},\"magnitude\":0.116726175,\"sqrMagnitude\":0.0136250006},\"scale\":0.06},\"tPattern\":{\"position\":{\"x\":0.07,\"normalized\":{\"x\":1.0,\"magnitude\":1.0,\"sqrMagnitude\":1.0},\"magnitude\":0.07,\"sqrMagnitude\":0.0049},\"angle\":120.0,\"scale\":0.08}},\"publicName\":{\"data\":\"Bataldo 3RB\"}}}",
       "name": "RevolverHEL",
@@ -114,6 +121,13 @@
       "persistentID": 12
     },
     {
+      "Type": 2,
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Malatack LX <color=#FF4500>[TR]</color>\",\"Packet\":{\"Comps\":{\"Length\":18,\"a\":{\"c\":1,\"v\":2},\"b\":{\"c\":2,\"v\":1},\"c\":{\"c\":3,\"v\":108},\"d\":{\"c\":4,\"v\":1},\"e\":{\"c\":5,\"v\":3},\"f\":{\"c\":6,\"v\":3},\"g\":{\"c\":7,\"v\":2},\"h\":{\"c\":8,\"v\":17},\"i\":{\"c\":9,\"v\":6},\"j\":{\"c\":10,\"v\":12},\"k\":{\"c\":11,\"v\":12},\"l\":{\"c\":12,\"v\":28},\"m\":{\"c\":16,\"v\":9},\"n\":{\"c\":19,\"v\":7},\"o\":{\"c\":21,\"v\":16},\"p\":{\"c\":23,\"v\":4},\"q\":{\"c\":25,\"v\":3}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.045,\"y\":0.025},\"angle\":90.0,\"scale\":0.1},\"tDecalB\":{\"position\":{\"x\":0.05,\"y\":0.03},\"angle\":90.0,\"scale\":0.1},\"tPattern\":{\"position\":{\"x\":0.05,\"y\":0.03},\"angle\":-90.0,\"scale\":0.1}},\"publicName\":{\"data\":\"Malatack LX <color=#FF4500>[TR]</color>\"}}}",
+      "name": "RifleAuto_t",
+      "internalEnabled": true,
+      "persistentID": 120
+    },
+    {
       "Type": 1,
       "GearJSON": "{\"Ver\":1,\"Name\":\"Malatack CH 4\",\"Packet\":{\"Comps\":{\"Length\":18,\"a\":{\"c\":1,\"v\":1},\"b\":{\"c\":2,\"v\":1},\"c\":{\"c\":3,\"v\":108},\"d\":{\"c\":4,\"v\":1},\"e\":{\"c\":5,\"v\":3},\"f\":{\"c\":6,\"v\":3},\"g\":{\"c\":7,\"v\":3},\"h\":{\"c\":8,\"v\":17},\"i\":{\"c\":9,\"v\":1},\"j\":{\"c\":10,\"v\":14},\"k\":{\"c\":11,\"v\":23},\"l\":{\"c\":12,\"v\":17},\"m\":{\"c\":16,\"v\":9},\"n\":{\"c\":19,\"v\":8},\"o\":{\"c\":21,\"v\":21},\"p\":{\"c\":23,\"v\":4},\"q\":{\"c\":25,\"v\":4}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.225,\"y\":0.003,\"normalized\":{\"x\":0.9999111,\"y\":0.013332149,\"magnitude\":1.0,\"sqrMagnitude\":1.0},\"magnitude\":0.225019991,\"sqrMagnitude\":0.0506339967},\"angle\":-90.0,\"scale\":0.05},\"tDecalB\":{\"position\":{\"x\":0.03,\"y\":-0.012,\"normalized\":{\"x\":0.9284767,\"y\":-0.371390671,\"magnitude\":1.0,\"sqrMagnitude\":1.0},\"magnitude\":0.03231099,\"sqrMagnitude\":0.00104399992},\"scale\":0.06},\"tPattern\":{\"position\":{\"x\":0.07,\"normalized\":{\"x\":1.0,\"magnitude\":1.0,\"sqrMagnitude\":1.0},\"magnitude\":0.07,\"sqrMagnitude\":0.0049},\"angle\":180.0,\"scale\":0.3}},\"publicName\":{\"data\":\"Malatack CH 4\"}}}",
       "name": "RifleBurst",
@@ -126,6 +140,13 @@
       "name": "RifleSemi",
       "internalEnabled": true,
       "persistentID": 41
+    },
+    {
+      "Type": 2,
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Drekker Pres MOD 556 <color=#FF4500>[TR]</color>\",\"Packet\":{\"Comps\":{\"Length\":17,\"a\":{\"c\":2,\"v\":1},\"b\":{\"c\":3,\"v\":108},\"c\":{\"c\":4,\"v\":1},\"d\":{\"c\":5,\"v\":42},\"e\":{\"c\":6,\"v\":3},\"f\":{\"c\":7,\"v\":2},\"g\":{\"c\":8,\"v\":9},\"h\":{\"c\":9,\"v\":8},\"i\":{\"c\":10,\"v\":10},\"j\":{\"c\":11,\"v\":10},\"k\":{\"c\":12,\"v\":14},\"l\":{\"c\":16,\"v\":8},\"m\":{\"c\":19,\"v\":7},\"n\":{\"c\":21,\"v\":14},\"o\":{\"c\":23,\"v\":1},\"p\":{\"c\":25,\"v\":5}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.03,\"y\":0.0},\"scale\":0.3},\"tDecalB\":{\"position\":{\"x\":0.1,\"y\":0.02},\"scale\":0.3},\"tPattern\":{\"position\":{\"x\":0.32,\"y\":0.0},\"scale\":0.6}},\"publicName\":{\"data\":\"Drekker Pres MOD 556 <color=#FF4500>[TR]</color>\"}}}",
+      "name": "RifleSemi_t",
+      "internalEnabled": true,
+      "persistentID": 141
     },
     {
       "Type": 1,

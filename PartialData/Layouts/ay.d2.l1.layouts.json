@@ -1705,10 +1705,10 @@
                     "GroupType": 2,
                     "Difficulty": 1,
                     "Distribution": 2,
-                    "DistributionValue": 0.64
+                    "DistributionValue": 0.7
                 }
             ],
-            "EnemyRespawning": false,
+            "EnemyRespawning": true,
             "EnemyRespawnRequireOtherZone": true,
             "EnemyRespawnRoomDistance": 2,
             "EnemyRespawnTimeInterval": 10.0,

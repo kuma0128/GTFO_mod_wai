@@ -14,7 +14,10 @@ Special thanks to my team (Scotch, Jonino, Cross) and friends.
 
 ```1.1.0```
 
-- Added Owl Rifle
+- New weapon
+  - Added Thermal Rifle
+  - Added Thermal Heavy Assult Rifle
+  - Added Thermal Assult Rifle
 - Added useful plugins
 - C2
   - Changed resourse positions
@@ -22,6 +25,7 @@ Special thanks to my team (Scotch, Jonino, Cross) and friends.
 - D2
   - Fixed scan positions
     - The difficulty level remains unchanged.
+  - Added respawn room to prevent glitches
 - D3
   - Release!!
 

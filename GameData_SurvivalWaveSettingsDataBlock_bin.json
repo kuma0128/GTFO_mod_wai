@@ -3208,7 +3208,7 @@
     },
     {
       "m_pauseBeforeStart": 0.0,
-      "m_pauseBetweenGroups": 90.0,
+      "m_pauseBetweenGroups": 75.0,
       "m_wavePauseMin_atCost": 1.0,
       "m_wavePauseMax_atCost": 20.0,
       "m_wavePauseMin": 1.0,
