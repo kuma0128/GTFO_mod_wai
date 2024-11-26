@@ -64,19 +64,19 @@
                     "GroupType": 0,
                     "Difficulty": 0,
                     "Distribution": 2,
-                    "DistributionValue": 0.6
+                    "DistributionValue": 0.46
                 },
                 {
                     "GroupType": 1,
                     "Difficulty": 6,
                     "Distribution": 2,
-                    "DistributionValue": 0.46
+                    "DistributionValue": 0.40
                 },
                 {
                     "GroupType": 1,
                     "Difficulty": 0,
                     "Distribution": 2,
-                    "DistributionValue": 0.46
+                    "DistributionValue": 0.40
                 }
             ],
             "EnemyRespawning": false,
@@ -355,7 +355,7 @@
                 {
                     "GroupType": 0,
                     "Difficulty": 0,
-                    "Distribution": 4,
+                    "Distribution": 3,
                     "DistributionValue": 1.0
                 },
                 {
@@ -1344,7 +1344,7 @@
             "AllowSmallPickupsAllocation": true,
             "AllowResourceContainerAllocation": true,
             "ForceBigPickupsAllocation": false,
-            "ConsumableDistributionInZone": 5,
+            "ConsumableDistributionInZone": 0,
             "BigPickupDistributionInZone": 0,
             "TerminalPlacements": [
                 {
@@ -1699,7 +1699,7 @@
             "LightsSubSeed": 0,
             "BulkheadDCScanSeed": 0,
             "SubComplex": 1,
-            "CustomGeomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_X_HA_03.prefab",
+            "CustomGeomorph": "Assets/Bundles/RLC_Mining/geo_64x64_mining_refinery_X_RLC_01.prefab",
             "IgnoreRandomGeomorphRotation": false,
             "CoverageMinMax": {
                 "x": 20.0,
@@ -1751,7 +1751,7 @@
             },
             "EventsOnTerminalDeactivateAlarm": [],
             "ActiveEnemyWave": {
-                "HasActiveEnemyWave": true,
+                "HasActiveEnemyWave": false,
                 "EnemyGroupInfrontOfDoor": 0,
                 "EnemyGroupInArea": 0,
                 "EnemyGroupsInArea": 0
@@ -1773,7 +1773,7 @@
             "AllowSmallPickupsAllocation": true,
             "AllowResourceContainerAllocation": true,
             "ForceBigPickupsAllocation": false,
-            "ConsumableDistributionInZone": 5,
+            "ConsumableDistributionInZone": 0,
             "BigPickupDistributionInZone": 5,
             "TerminalPlacements": [
                 {
@@ -2027,7 +2027,7 @@
             },
             "EventsOnTerminalDeactivateAlarm": [],
             "ActiveEnemyWave": {
-                "HasActiveEnemyWave": true,
+                "HasActiveEnemyWave": false,
                 "EnemyGroupInfrontOfDoor": 2,
                 "EnemyGroupInArea": 33,
                 "EnemyGroupsInArea": 0
@@ -2155,7 +2155,7 @@
                     "GroupType": 3,
                     "Difficulty": 1,
                     "Distribution": 2,
-                    "DistributionValue": 1.4
+                    "DistributionValue": 0.7
                 },
                 {
                     "GroupType": 1,
@@ -2320,7 +2320,7 @@
                 "Middle": 0.0,
                 "End": 0.0
             },
-            "WeaponAmmoMulti": 2.0,
+            "WeaponAmmoMulti": 1.2,
             "WeaponAmmoPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
@@ -2341,6 +2341,7 @@
             "StaticSpawnDataContainers": []
         }
     ],
+    // "ZoneAliasStart": 588,
     "name": "Anarchy_D3_L1",
     "internalEnabled": true,
     "persistentID": "Anarchy_D3_L1",
