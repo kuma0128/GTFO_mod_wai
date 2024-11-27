@@ -34,6 +34,32 @@
                 "ChanceToChange": 0.5
             },
             "EventsOnEnter": [],
+            "EventsOnOpenDoor": [
+                {
+                    "Type": 9,
+                    "Delay": 0.0,
+                    "EnemyWaveData": {
+                      "WaveSettings": 255,
+                      "WavePopulation": 15,
+                      "AreaDistance": 2,
+                      "SpawnDelay": 0.0,
+                      "TriggerAlarm": false,
+                      "IntelMessage": 2736927834
+                    }
+                },
+                {
+                    "Type": 9,
+                    "Delay": 0.0,
+                    "EnemyWaveData": {
+                      "WaveSettings": 255,
+                      "WavePopulation": 15,
+                      "AreaDistance": 2,
+                      "SpawnDelay": 0.0,
+                      "TriggerAlarm": false,
+                      "IntelMessage": ""
+                    }
+                }
+            ],
             "ProgressionPuzzleToEnter": {
                 "PuzzleType": 0,
                 "CustomText": 972,

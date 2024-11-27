@@ -787,10 +787,24 @@
                     }
                 }
             ],
-            "EventsOnPortalWarp": [],
-            "EventsOnApproachDoor": [],
-            "EventsOnUnlockDoor": [],
-            "EventsOnOpenDoor": [],
+            "EventsOnOpenDoor": [
+                {
+                    "Type": 0,
+                    "WardenIntel": "<color=red>://ERROR: Security breach detected at some doors.</color>"
+                },
+                {
+                    "Type": 9,
+                    "Delay": 0.0,
+                    "EnemyWaveData": {
+                      "WaveSettings": "FINITE_1",
+                      "WavePopulation": "MOTHER",
+                      "AreaDistance": 2,
+                      "SpawnDelay": 0.0,
+                      "TriggerAlarm": false,
+                      "IntelMessage": ""
+                    }
+                }
+            ],
             "EventsOnDoorScanStart": [],
             "EventsOnDoorScanDone": [],
             "ProgressionPuzzleToEnter": {
@@ -873,20 +887,20 @@
             "HealthMulti": 1.6,
             "HealthPlacement": {
                 "Start": 0.0,
-                "Middle": 0.0,
-                "End": 0.0
+                "Middle": 100.0,
+                "End": 100.0
             },
             "WeaponAmmoMulti": 4.0,
             "WeaponAmmoPlacement": {
                 "Start": 0.0,
-                "Middle": 0.0,
-                "End": 0.0
+                "Middle": 100.0,
+                "End": 100.0
             },
             "ToolAmmoMulti": 2.0,
             "ToolAmmoPlacement": {
                 "Start": 0.0,
-                "Middle": 0.0,
-                "End": 0.0
+                "Middle": 100.0,
+                "End": 100.0
             },
             "DisinfectionMulti": 0.0,
             "DisinfectionPlacement": {
@@ -1288,6 +1302,20 @@
                 "ChanceToChange": 0.0
             },
             "EventsOnEnter": [],
+            "EventsOnOpenDoor": [
+                {
+                    "Type": 9,
+                    "Delay": 0.0,
+                    "EnemyWaveData": {
+                      "WaveSettings": "FINITE_4",
+                      "WavePopulation": "POUNCER",
+                      "AreaDistance": 2,
+                      "SpawnDelay": 0.0,
+                      "TriggerAlarm": false,
+                      "IntelMessage": "<color=red>Something approaches.</color>"
+                    }
+                }
+            ],
             "ProgressionPuzzleToEnter": {
                 "PuzzleType": 0,
                 "CustomText": "<color=red>://ERROR: Door in emergency lockdown, unable to operate.</color>",
@@ -1581,7 +1609,7 @@
             },
             "EventsOnEnter": [],
             "ProgressionPuzzleToEnter": {
-                "PuzzleType": 3,
+                "PuzzleType": 0,
                 "CustomText": "<color=red>://ERROR: Door in emergency lockdown, unable to operate.</color>",
                 "PlacementCount": 1,
                 "ZonePlacementData": []
@@ -1731,7 +1759,7 @@
             "EventsOnDoorScanStart": [],
             "EventsOnDoorScanDone": [],
             "ProgressionPuzzleToEnter": {
-                "PuzzleType": 3,
+                "PuzzleType": 0,
                 "CustomText": "<color=red>://ERROR: Door in emergency lockdown, unable to operate.</color>",
                 "PlacementCount": 1,
                 "ZonePlacementData": []
@@ -1756,7 +1784,20 @@
                 "EnemyGroupInArea": 0,
                 "EnemyGroupsInArea": 0
             },
-            "EnemySpawningInZone": [],
+            "EnemySpawningInZone": [
+                {
+                    "GroupType": 0,
+                    "Difficulty": 7,
+                    "Distribution": 2,
+                    "DistributionValue": 0.64
+                },
+                {
+                    "GroupType": 6,
+                    "Difficulty": 11,
+                    "Distribution": 2,
+                    "DistributionValue": 0.64
+                }
+            ],
             "EnemyRespawning": false,
             "EnemyRespawnRequireOtherZone": true,
             "EnemyRespawnRoomDistance": 2,
@@ -2249,6 +2290,16 @@
                 "ChanceToChange": 0.0
             },
             "EventsOnEnter": [],
+            "EventsOnOpenDoor": [
+                {
+                    "Type": 3,
+                    "SoundID": 1479064690
+                },
+                {
+                    "Type": 4,
+                    "Delay": 120
+                }
+            ],
             "ProgressionPuzzleToEnter": {
                 "PuzzleType": 0,
                 "CustomText": "<color=red>://ERROR: Door in emergency lockdown, unable to operate.</color>",
@@ -2286,7 +2337,7 @@
                     "GroupType": 2,
                     "Difficulty": 2,
                     "Distribution": 1,
-                    "DistributionValue": 2.0
+                    "DistributionValue": 4.0
                 }
             ],
             "EnemyRespawning": false,
@@ -2341,7 +2392,7 @@
             "StaticSpawnDataContainers": []
         }
     ],
-    // "ZoneAliasStart": 588,
+    "ZoneAliasStart": 588,
     "name": "Anarchy_D3_L1",
     "internalEnabled": true,
     "persistentID": "Anarchy_D3_L1",

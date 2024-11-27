@@ -1,5 +1,9 @@
 # CHANGELOG
 
+```1.0.1```
+
+- Added useful plugins
+
 ```1.0.0```
 
 - Added the BetterDoorBulletCollision plugin

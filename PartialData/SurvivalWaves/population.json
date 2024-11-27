@@ -55,6 +55,17 @@
     "datablock": "SurvivalWavePopulation"
   },
   {
+    "WaveRoleWeakling": 36,
+    "WaveRoleStandard": 36,
+    "WaveRoleSpecial": 36,
+    "WaveRoleMiniBoss": 36,
+    "WaveRoleBoss": 36,
+    "name": "MOTHER",
+    "internalEnabled": true,
+    "persistentID": "MOTHER",
+    "datablock": "SurvivalWavePopulation"
+  },
+  {
     "WaveRoleWeakling": 47,
     "WaveRoleStandard": 47,
     "WaveRoleSpecial": 47,

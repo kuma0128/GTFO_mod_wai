@@ -2130,7 +2130,7 @@
             "PowerGeneratorPlacements": [],
             "DisinfectionStationPlacements": [],
             "DumbwaiterPlacements": [],
-            "HealthMulti": 0.8,
+            "HealthMulti": 0.6,
             "HealthPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
@@ -2142,7 +2142,7 @@
                 "Middle": 0.0,
                 "End": 0.0
             },
-            "ToolAmmoMulti": 0.8,
+            "ToolAmmoMulti": 0.6,
             "ToolAmmoPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
@@ -2271,13 +2271,13 @@
                 "Middle": 0.0,
                 "End": 0.0
             },
-            "WeaponAmmoMulti": 2.0,
+            "WeaponAmmoMulti": 2.6,
             "WeaponAmmoPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
                 "End": 0.0
             },
-            "ToolAmmoMulti": 0.4,
+            "ToolAmmoMulti": 0.8,
             "ToolAmmoPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,

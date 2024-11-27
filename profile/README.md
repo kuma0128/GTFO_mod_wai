@@ -12,6 +12,11 @@ Special thanks to my team (Scotch, Jonino, Cross) and friends.
 
 ## VERSION
 
+```1.1.0```
+
+- D3
+  - Release !!
+
 ```1.0.2```
 
 - New weapon
@@ -26,10 +31,6 @@ Special thanks to my team (Scotch, Jonino, Cross) and friends.
   - Fixed scan positions
     - The difficulty level remains unchanged.
   - Added respawn room to prevent glitches
-
-```1.0.1```
-
-- Added useful plugins
 
 ## Rundown Trailer
 
