@@ -108,6 +108,33 @@
     "datablock": "SurvivalWaveSettings"
   },
   {
+    "m_pauseBeforeStart": 0.0,
+    "m_pauseBetweenGroups": 10.0,
+    "m_wavePauseMin_atCost": 0.0,
+    "m_wavePauseMax_atCost": 0.0,
+    "m_wavePauseMin": 0.0,
+    "m_wavePauseMax": 0.0,
+    "m_populationFilter": [
+      4
+    ],
+    "m_filterType": 1,
+    "m_overrideWaveSpawnType": true,
+    "m_survivalWaveSpawnType": 5,
+    "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
+    "m_chanceToRandomizeSpawnDirectionPerGroup": 0.8,
+    "m_populationPointsTotal": 12.0,
+    "m_populationPointsPerWaveStart": 3.0,
+    "m_populationPointsPerWaveEnd": 3.0,
+    "m_populationPointsMinPerGroup": 3.0,
+    "m_populationPointsPerGroupStart": 3.0,
+    "m_populationPointsPerGroupEnd": 3.0,
+    "m_populationRampOverTime": 0.0,
+    "name": "FINITE_12_SPAWNPOINT_cluster",
+    "internalEnabled": true,
+    "persistentID": "FINITE_12_SPAWNPOINT_cluster",
+    "datablock": "SurvivalWaveSettings"
+  },
+  {
     "m_pauseBeforeStart": 1.0,
     "m_pauseBetweenGroups": 3.0,
     "m_wavePauseMin_atCost": 1.0,

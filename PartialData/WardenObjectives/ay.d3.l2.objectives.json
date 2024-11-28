@@ -44,7 +44,11 @@
             },
             {
                 "Type": 0,
-                "WardenIntel":  "<color=red>Security door to [ZONE 12]: Granted.\n Switching to emergency power. Evacuate immediately</color>"
+                "WardenIntel":  "<color=red>Security door to ZONE 800: Granted.\n Switching to emergency power. Evacuate immediately</color>"
+            },
+            {
+                "Type": 3,
+                "SoundID": 1479064690
             }
         ],
         "EventsOnGotoWinTrigger": 0,

@@ -796,7 +796,7 @@
                     "Type": 9,
                     "Delay": 0.0,
                     "EnemyWaveData": {
-                      "WaveSettings": "FINITE_1",
+                      "WaveSettings": "FINITE_1_ELEVATOR",
                       "WavePopulation": "MOTHER",
                       "AreaDistance": 2,
                       "SpawnDelay": 0.0,
@@ -1113,13 +1113,13 @@
                 "Middle": 0.0,
                 "End": 0.0
             },
-            "WeaponAmmoMulti": 1.0,
+            "WeaponAmmoMulti": 0.0,
             "WeaponAmmoPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
                 "End": 0.0
             },
-            "ToolAmmoMulti": 0.0,
+            "ToolAmmoMulti": 0.4,
             "ToolAmmoPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
@@ -1243,7 +1243,7 @@
             "PowerGeneratorPlacements": [],
             "DisinfectionStationPlacements": [],
             "DumbwaiterPlacements": [],
-            "HealthMulti": 0.6,
+            "HealthMulti": 0.0,
             "HealthPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
@@ -1346,14 +1346,14 @@
                 {
                     "GroupType": 0,
                     "Difficulty": 0,
-                    "Distribution": 2,
-                    "DistributionValue": 0.6
+                    "Distribution": 1,
+                    "DistributionValue": 1.0
                 },
                 {
                     "GroupType": 0,
                     "Difficulty": 6,
-                    "Distribution": 2,
-                    "DistributionValue": 0.6
+                    "Distribution": 1,
+                    "DistributionValue": 1.0
                 }
             ],
             "EnemyRespawning": false,
@@ -1555,7 +1555,7 @@
                 "Middle": 0.0,
                 "End": 0.0
             },
-            "WeaponAmmoMulti": 2.0,
+            "WeaponAmmoMulti": 1.6,
             "WeaponAmmoPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
@@ -1692,7 +1692,7 @@
             "PowerGeneratorPlacements": [],
             "DisinfectionStationPlacements": [],
             "DumbwaiterPlacements": [],
-            "HealthMulti": 0.6,
+            "HealthMulti": 0.4,
             "HealthPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
@@ -1704,7 +1704,7 @@
                 "Middle": 0.0,
                 "End": 0.0
             },
-            "ToolAmmoMulti": 0.4,
+            "ToolAmmoMulti": 0.8,
             "ToolAmmoPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
@@ -1789,13 +1789,7 @@
                     "GroupType": 0,
                     "Difficulty": 7,
                     "Distribution": 2,
-                    "DistributionValue": 0.64
-                },
-                {
-                    "GroupType": 6,
-                    "Difficulty": 11,
-                    "Distribution": 2,
-                    "DistributionValue": 0.64
+                    "DistributionValue": 1.0
                 }
             ],
             "EnemyRespawning": false,
@@ -1848,7 +1842,7 @@
             "PowerGeneratorPlacements": [],
             "DisinfectionStationPlacements": [],
             "DumbwaiterPlacements": [],
-            "HealthMulti": 1.6,
+            "HealthMulti": 2.0,
             "HealthPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
@@ -1860,7 +1854,7 @@
                 "Middle": 0.0,
                 "End": 0.0
             },
-            "ToolAmmoMulti": 1.0,
+            "ToolAmmoMulti": 2.0,
             "ToolAmmoPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
@@ -1911,139 +1905,42 @@
             "EventsOnPortalWarp": [],
             "EventsOnApproachDoor": [],
             "EventsOnUnlockDoor": [],
-            "EventsOnOpenDoor": [],
+            "EventsOnOpenDoor": [
+                {
+                    "Trigger": 0,
+                    "Type": 9,
+                    "Delay": 0.0,
+                    "DimensionIndex": 0,
+                    "Layer": 0,
+                    "LocalIndex": 12,
+                    "Count": 0,
+                    "WorldEventObjectFilter": "",
+                    "EnemyWaveData": {
+                      "WaveSettings": "FINITE_12_SPAWNPOINT_cluster",
+                      "WavePopulation": "STRIKERS_FLYER_MIX",
+                      "AreaDistance": 2,
+                      "SpawnDelay": 0.0,
+                      "TriggerAlarm": false,
+                      "IntelMessage": ""
+                    }
+                }
+            ],
             "EventsOnDoorScanStart": [
                 {
                     "Type": 0,
-                    "Condition": {
-                        "ConditionIndex": -1,
-                        "IsTrue": false
-                    },
-                    "Trigger": 0,
-                    "ChainPuzzle": 0,
-                    "UseStaticBioscanPoints": false,
-                    "Layer": 0,
-                    "DimensionIndex": 0,
-                    "LocalIndex": 0,
-                    "Delay": 0.0,
-                    "Duration": 0.0,
-                    "ClearDimension": false,
-                    "WardenIntel": "<color=red>Security breaches are detected.</color>",
-                    "CustomSubObjectiveHeader": 0,
-                    "CustomSubObjective": 0,
-                    "SoundID": 0,
-                    "SoundSubtitle": 0,
-                    "DialogueID": 0,
-                    "FogSetting": 0,
-                    "FogTransitionDuration": 0.0,
-                    "EnemyWaveData": {
-                        "WaveSettings": 0,
-                        "WavePopulation": 0,
-                        "AreaDistance": 2,
-                        "SpawnDelay": 0.0,
-                        "TriggerAlarm": false,
-                        "IntelMessage": 0
-                    },
-                    "EnemyID": 0,
-                    "Position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0,
-                        "magnitude": 0.0,
-                        "sqrMagnitude": 0.0
-                    },
-                    "Count": 0,
-                    "Enabled": false,
-                    "TerminalCommand": 0,
-                    "TerminalCommandRule": 0
+                    "WardenIntel": "<color=red>Security breaches are detected.</color>"
                 },
                 {
                     "Type": 1,
-                    "Condition": {
-                        "ConditionIndex": -1,
-                        "IsTrue": false
-                    },
-                    "Trigger": 0,
-                    "ChainPuzzle": 0,
-                    "UseStaticBioscanPoints": false,
                     "Layer": 0,
                     "DimensionIndex": 0,
                     "LocalIndex": 12,
-                    "Delay": 180.0,
-                    "Duration": 0.0,
-                    "ClearDimension": false,
-                    "WardenIntel": 0,
-                    "CustomSubObjectiveHeader": 0,
-                    "CustomSubObjective": 0,
-                    "SoundID": 0,
-                    "SoundSubtitle": 0,
-                    "DialogueID": 0,
-                    "FogSetting": 0,
-                    "FogTransitionDuration": 0.0,
-                    "EnemyWaveData": {
-                        "WaveSettings": 0,
-                        "WavePopulation": 0,
-                        "AreaDistance": 2,
-                        "SpawnDelay": 0.0,
-                        "TriggerAlarm": false,
-                        "IntelMessage": 0
-                    },
-                    "EnemyID": 0,
-                    "Position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0,
-                        "magnitude": 0.0,
-                        "sqrMagnitude": 0.0
-                    },
-                    "Count": 0,
-                    "Enabled": false,
-                    "TerminalCommand": 0,
-                    "TerminalCommandRule": 0
+                    "Delay": 180.0
                 },
                 {
                     "Type": 0,
-                    "Condition": {
-                        "ConditionIndex": -1,
-                        "IsTrue": false
-                    },
-                    "Trigger": 0,
-                    "ChainPuzzle": 0,
-                    "UseStaticBioscanPoints": false,
-                    "Layer": 0,
-                    "DimensionIndex": 0,
-                    "LocalIndex": 0,
-                    "Delay": 180.0,
-                    "Duration": 0.0,
-                    "ClearDimension": false,
                     "WardenIntel": "<color=red>Opening the door.</color>",
-                    "CustomSubObjectiveHeader": 0,
-                    "CustomSubObjective": 0,
-                    "SoundID": 0,
-                    "SoundSubtitle": 0,
-                    "DialogueID": 0,
-                    "FogSetting": 0,
-                    "FogTransitionDuration": 0.0,
-                    "EnemyWaveData": {
-                        "WaveSettings": 0,
-                        "WavePopulation": 0,
-                        "AreaDistance": 2,
-                        "SpawnDelay": 0.0,
-                        "TriggerAlarm": false,
-                        "IntelMessage": 0
-                    },
-                    "EnemyID": 0,
-                    "Position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0,
-                        "magnitude": 0.0,
-                        "sqrMagnitude": 0.0
-                    },
-                    "Count": 0,
-                    "Enabled": false,
-                    "TerminalCommand": 0,
-                    "TerminalCommandRule": 0
+                    "Delay": 180.0
                 }
             ],
             "EventsOnDoorScanDone": [],
@@ -2099,13 +1996,13 @@
             "PowerGeneratorPlacements": [],
             "DisinfectionStationPlacements": [],
             "DumbwaiterPlacements": [],
-            "HealthMulti": 1.6,
+            "HealthMulti": 1.0,
             "HealthPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
                 "End": 0.0
             },
-            "WeaponAmmoMulti": 2.0,
+            "WeaponAmmoMulti": 1.0,
             "WeaponAmmoPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
@@ -2236,7 +2133,7 @@
                 "Middle": 0.0,
                 "End": 0.0
             },
-            "WeaponAmmoMulti": 2.0,
+            "WeaponAmmoMulti": 1.6,
             "WeaponAmmoPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
@@ -2336,8 +2233,8 @@
                 {
                     "GroupType": 2,
                     "Difficulty": 2,
-                    "Distribution": 1,
-                    "DistributionValue": 4.0
+                    "Distribution": 2,
+                    "DistributionValue": 0.7
                 }
             ],
             "EnemyRespawning": false,
@@ -2371,7 +2268,7 @@
                 "Middle": 0.0,
                 "End": 0.0
             },
-            "WeaponAmmoMulti": 1.2,
+            "WeaponAmmoMulti": 1.6,
             "WeaponAmmoPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,

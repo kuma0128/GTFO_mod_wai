@@ -31,38 +31,6 @@
         "EventsOnActivate": [],
         "StopAllWavesBeforeGotoWin": false,
         "WavesOnGotoWin": [
-            {
-                "WaveSettings": 96,
-                "WavePopulation": 28,
-                "AreaDistance": 2,
-                "SpawnDelay": 180.0,
-                "TriggerAlarm": false,
-                "IntelMessage": 0
-            },
-            {
-                "WaveSettings": 97,
-                "WavePopulation": 20,
-                "AreaDistance": 2,
-                "SpawnDelay": 180.0,
-                "TriggerAlarm": false,
-                "IntelMessage": 0
-            },
-            {
-                "WaveSettings": 80,
-                "WavePopulation": 31,
-                "AreaDistance": 2,
-                "SpawnDelay": 600.0,
-                "TriggerAlarm": false,
-                "IntelMessage": 0
-            },
-            {
-                "WaveSettings": 80,
-                "WavePopulation": 31,
-                "AreaDistance": 2,
-                "SpawnDelay": 1400.0,
-                "TriggerAlarm": false,
-                "IntelMessage": 0
-            }
         ],
         "WaveOnGotoWinTrigger": 0,
         "EventsOnGotoWin": [

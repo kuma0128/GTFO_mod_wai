@@ -37,52 +37,7 @@
             "EventsOnPortalWarp": [],
             "EventsOnApproachDoor": [],
             "EventsOnUnlockDoor": [],
-            "EventsOnOpenDoor": [
-                {
-                    "Type": 2,
-                    "Condition": {
-                        "ConditionIndex": -1,
-                        "IsTrue": false
-                    },
-                    "Trigger": 0,
-                    "ChainPuzzle": 0,
-                    "UseStaticBioscanPoints": false,
-                    "Layer": 0,
-                    "DimensionIndex": 0,
-                    "LocalIndex": 10,
-                    "Delay": 0.0,
-                    "Duration": 0.0,
-                    "ClearDimension": false,
-                    "WardenIntel": "<color=red>Security breaches are detected.</color>",
-                    "CustomSubObjectiveHeader": 0,
-                    "CustomSubObjective": 0,
-                    "SoundID": 0,
-                    "SoundSubtitle": 0,
-                    "DialogueID": 0,
-                    "FogSetting": 0,
-                    "FogTransitionDuration": 0.0,
-                    "EnemyWaveData": {
-                        "WaveSettings": 0,
-                        "WavePopulation": 0,
-                        "AreaDistance": 2,
-                        "SpawnDelay": 0.0,
-                        "TriggerAlarm": false,
-                        "IntelMessage": 0
-                    },
-                    "EnemyID": 0,
-                    "Position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0,
-                        "magnitude": 0.0,
-                        "sqrMagnitude": 0.0
-                    },
-                    "Count": 0,
-                    "Enabled": false,
-                    "TerminalCommand": 0,
-                    "TerminalCommandRule": 0
-                }
-            ],
+            "EventsOnOpenDoor": [],
             "EventsOnDoorScanStart": [],
             "EventsOnDoorScanDone": [],
             "ProgressionPuzzleToEnter": {
@@ -175,7 +130,7 @@
             "PowerGeneratorPlacements": [],
             "DisinfectionStationPlacements": [],
             "DumbwaiterPlacements": [],
-            "HealthMulti": 1.0,
+            "HealthMulti": 0.8,
             "HealthPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
@@ -187,7 +142,7 @@
                 "Middle": 0.0,
                 "End": 0.0
             },
-            "ToolAmmoMulti": 0.4,
+            "ToolAmmoMulti": 0.8,
             "ToolAmmoPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,

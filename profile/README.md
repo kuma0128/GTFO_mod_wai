@@ -16,6 +16,7 @@ Special thanks to my team (Scotch, Jonino, Cross) and friends.
 
 - D3
   - Release !!
+- Improved Chargetup for HEL Gun
 
 ```1.0.2```
 

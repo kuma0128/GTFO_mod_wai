@@ -3204,39 +3204,39 @@
       "persistentID": 187
     },
     {
-      "PublicAlarmName": "Class Alarm",
+      "PublicAlarmName": "Class Admin",
       "TriggerAlarmOnActivate": true,
       "SurvivalWaveSettings": 1,
       "SurvivalWavePopulation": "Striker_major_Berserk_mixed",
       "SurvivalWaveAreaDistance": 1,
       "DisableSurvivalWaveOnComplete": false,
       "UseRandomPositions": false,
-      "WantedDistanceFromStartPos": 20.0,
+      "WantedDistanceFromStartPos": 30.0,
       "WantedDistanceBetweenPuzzleComponents": 25.0,
       "ChainedPuzzle": [
         {
-          "PuzzleType": 13
+          "PuzzleType": 14
+        },
+        {
+          "PuzzleType": 14
         },
         {
           "PuzzleType": 13
         },
         {
-          "PuzzleType": 13
+          "PuzzleType": 14
+        },
+        {
+          "PuzzleType": 14
         },
         {
           "PuzzleType": 13
         },
         {
-          "PuzzleType": 13
+          "PuzzleType": 14
         },
         {
-          "PuzzleType": 13
-        },
-        {
-          "PuzzleType": 13
-        },
-        {
-          "PuzzleType": 13
+          "PuzzleType": 14
         },
         {
           "PuzzleType": 13
