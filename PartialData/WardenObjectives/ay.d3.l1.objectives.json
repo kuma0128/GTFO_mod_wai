@@ -28,101 +28,14 @@
         "FogTransitionDurationOnElevatorLand": 0.0,
         "OnActivateOnSolveItem": false,
         "WavesOnActivate": [],
-        "EventsOnActivate": [
-            {
-                "Type": "PlaySound",
-                "Condition": {
-                  "ConditionIndex": -1,
-                  "IsTrue": false
-                },
-                "Trigger": "OnEnd",
-                "ChainPuzzle": 4,
-                "UseStaticBioscanPoints": false,
-                "Layer": 0,
-                "DimensionIndex": "Reality",
-                "LocalIndex": "Zone_4",
-                "Delay": 3.0,
-                "Duration": 0.0,
-                "ClearDimension": false,
-                "WardenIntel": 0,
-                "CustomSubObjectiveHeader": 0,
-                "CustomSubObjective": 0,
-                "SoundID": 2134610730,
-                "SoundSubtitle": 0,
-                "DialogueID": 0,
-                "FogSetting": 0,
-                "FogTransitionDuration": 0.0,
-                "EnemyWaveData": {
-                  "WaveSettings": 0,
-                  "WavePopulation": 0,
-                  "AreaDistance": 2,
-                  "SpawnDelay": 0.0,
-                  "TriggerAlarm": false,
-                  "IntelMessage": 0
-                },
-                "EnemyID": 0,
-                "Position": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
-                },
-                "Count": 0,
-                "Enabled": false,
-                "TerminalCommand": "None",
-                "TerminalCommandRule": "Normal",
-                "SustainedEventSlotIndex": 0,
-                "SustainedEventStateCount": 0,
-                "SustainedEventStateDuration": 0.0,
-                "SustainedEventDelay": 0.0
-              }
-        ],
+        "EventsOnActivate": [],
         "StopAllWavesBeforeGotoWin": false,
         "WavesOnGotoWin": [],
         "WaveOnGotoWinTrigger": 0,
         "EventsOnGotoWin": [
             {
-                "Type": 4,
-                "Condition": {
-                    "ConditionIndex": -1,
-                    "IsTrue": false
-                },
-                "Trigger": 0,
-                "ChainPuzzle": 0,
-                "UseStaticBioscanPoints": false,
-                "Layer": 0,
-                "DimensionIndex": 0,
-                "LocalIndex": 0,
-                "Delay": 0.0,
-                "Duration": 0.0,
-                "ClearDimension": false,
-                "WardenIntel": 0,
-                "CustomSubObjectiveHeader": 0,
-                "CustomSubObjective": 0,
-                "SoundID": 3206896766,
-                "SoundSubtitle": 0,
-                "DialogueID": 0,
-                "FogSetting": 0,
-                "FogTransitionDuration": 0.0,
-                "EnemyWaveData": {
-                    "WaveSettings": 0,
-                    "WavePopulation": 0,
-                    "AreaDistance": 2,
-                    "SpawnDelay": 0.0,
-                    "TriggerAlarm": false,
-                    "IntelMessage": 0
-                },
-                "EnemyID": 0,
-                "Position": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0,
-                    "magnitude": 0.0,
-                    "sqrMagnitude": 0.0
-                },
-                "Count": 0,
-                "Enabled": false,
-                "TerminalCommand": 0,
-                "TerminalCommandRule": 0
+                "Type": 3,
+                "SoundID": 1479064690
             },
             {
                 "Type": 1,

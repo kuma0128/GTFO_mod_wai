@@ -14,8 +14,11 @@ Special thanks to my team (Scotch, Jonino, Cross) and friends.
 
 ```1.1.1```
 
-- Weapon
-  - 
+- D3
+  - Fixed Survival Timer
+    - Due to sloppy refactoring, the creation of secondary objects failed, forcing the termination of the timer settings on the main object.
+- Deleted unused plugins
+- Shortened the level build time
 
 ```1.1.0```
 

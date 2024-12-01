@@ -95,7 +95,7 @@
             "AllowSmallPickupsAllocation": true,
             "AllowResourceContainerAllocation": true,
             "ForceBigPickupsAllocation": false,
-            "ConsumableDistributionInZone": 0,
+            "ConsumableDistributionInZone": 76,
             "BigPickupDistributionInZone": 0,
             "TerminalPlacements": [
                 {}
@@ -787,24 +787,10 @@
                     }
                 }
             ],
-            "EventsOnOpenDoor": [
-                {
-                    "Type": 0,
-                    "WardenIntel": "<color=red>://ERROR: Security breach detected at some doors.</color>"
-                },
-                {
-                    "Type": 9,
-                    "Delay": 0.0,
-                    "EnemyWaveData": {
-                      "WaveSettings": "FINITE_1_ELEVATOR",
-                      "WavePopulation": "MOTHER",
-                      "AreaDistance": 2,
-                      "SpawnDelay": 0.0,
-                      "TriggerAlarm": false,
-                      "IntelMessage": ""
-                    }
-                }
-            ],
+            "EventsOnPortalWarp": [],
+            "EventsOnApproachDoor": [],
+            "EventsOnUnlockDoor": [],
+            "EventsOnOpenDoor": [],
             "EventsOnDoorScanStart": [],
             "EventsOnDoorScanDone": [],
             "ProgressionPuzzleToEnter": {
@@ -1243,7 +1229,7 @@
             "PowerGeneratorPlacements": [],
             "DisinfectionStationPlacements": [],
             "DumbwaiterPlacements": [],
-            "HealthMulti": 0.0,
+            "HealthMulti": 0.6,
             "HealthPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
@@ -1302,20 +1288,6 @@
                 "ChanceToChange": 0.0
             },
             "EventsOnEnter": [],
-            "EventsOnOpenDoor": [
-                {
-                    "Type": 9,
-                    "Delay": 0.0,
-                    "EnemyWaveData": {
-                      "WaveSettings": "FINITE_4",
-                      "WavePopulation": "POUNCER",
-                      "AreaDistance": 2,
-                      "SpawnDelay": 0.0,
-                      "TriggerAlarm": false,
-                      "IntelMessage": "<color=red>Something approaches.</color>"
-                    }
-                }
-            ],
             "ProgressionPuzzleToEnter": {
                 "PuzzleType": 0,
                 "CustomText": "<color=red>://ERROR: Door in emergency lockdown, unable to operate.</color>",
@@ -1346,14 +1318,14 @@
                 {
                     "GroupType": 0,
                     "Difficulty": 0,
-                    "Distribution": 1,
-                    "DistributionValue": 1.0
+                    "Distribution": 2,
+                    "DistributionValue": 0.6
                 },
                 {
                     "GroupType": 0,
                     "Difficulty": 6,
-                    "Distribution": 1,
-                    "DistributionValue": 1.0
+                    "Distribution": 2,
+                    "DistributionValue": 0.6
                 }
             ],
             "EnemyRespawning": false,
@@ -1555,7 +1527,7 @@
                 "Middle": 0.0,
                 "End": 0.0
             },
-            "WeaponAmmoMulti": 1.6,
+            "WeaponAmmoMulti": 2.0,
             "WeaponAmmoPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
@@ -1692,7 +1664,7 @@
             "PowerGeneratorPlacements": [],
             "DisinfectionStationPlacements": [],
             "DumbwaiterPlacements": [],
-            "HealthMulti": 0.4,
+            "HealthMulti": 0.6,
             "HealthPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
@@ -1704,7 +1676,7 @@
                 "Middle": 0.0,
                 "End": 0.0
             },
-            "ToolAmmoMulti": 0.8,
+            "ToolAmmoMulti": 0.4,
             "ToolAmmoPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
@@ -1842,7 +1814,7 @@
             "PowerGeneratorPlacements": [],
             "DisinfectionStationPlacements": [],
             "DumbwaiterPlacements": [],
-            "HealthMulti": 2.0,
+            "HealthMulti": 1.6,
             "HealthPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
@@ -1854,7 +1826,7 @@
                 "Middle": 0.0,
                 "End": 0.0
             },
-            "ToolAmmoMulti": 2.0,
+            "ToolAmmoMulti": 1.0,
             "ToolAmmoPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
@@ -1996,13 +1968,13 @@
             "PowerGeneratorPlacements": [],
             "DisinfectionStationPlacements": [],
             "DumbwaiterPlacements": [],
-            "HealthMulti": 1.0,
+            "HealthMulti": 1.6,
             "HealthPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
                 "End": 0.0
             },
-            "WeaponAmmoMulti": 1.0,
+            "WeaponAmmoMulti": 2.0,
             "WeaponAmmoPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
@@ -2187,8 +2159,6 @@
                 "ChanceToChange": 0.0
             },
             "EventsOnEnter": [],
-            "EventsOnOpenDoor": [
-            ],
             "ProgressionPuzzleToEnter": {
                 "PuzzleType": 0,
                 "CustomText": "<color=red>://ERROR: Door in emergency lockdown, unable to operate.</color>",
@@ -2281,7 +2251,6 @@
             "StaticSpawnDataContainers": []
         }
     ],
-    "ZoneAliasStart": 588,
     "name": "Anarchy_D3_L1",
     "internalEnabled": true,
     "persistentID": "Anarchy_D3_L1",
