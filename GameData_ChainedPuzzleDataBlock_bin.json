@@ -5576,7 +5576,7 @@
       "PublicAlarmName": "Class VI Cluster Alarm",
       "TriggerAlarmOnActivate": true,
       "SurvivalWaveSettings": 1,
-      "SurvivalWavePopulation": 1,
+      "SurvivalWavePopulation": "Berserk_only",
       "SurvivalWaveAreaDistance": 2,
       "DisableSurvivalWaveOnComplete": true,
       "UseRandomPositions": true,

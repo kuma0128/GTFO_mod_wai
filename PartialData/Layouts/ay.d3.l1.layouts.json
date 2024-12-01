@@ -95,7 +95,7 @@
             "AllowSmallPickupsAllocation": true,
             "AllowResourceContainerAllocation": true,
             "ForceBigPickupsAllocation": false,
-            "ConsumableDistributionInZone": 1,
+            "ConsumableDistributionInZone": 0,
             "BigPickupDistributionInZone": 0,
             "TerminalPlacements": [
                 {}
@@ -104,7 +104,7 @@
             "PowerGeneratorPlacements": [],
             "DisinfectionStationPlacements": [],
             "DumbwaiterPlacements": [],
-            "HealthMulti": 0.8,
+            "HealthMulti": 0.6,
             "HealthPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
@@ -266,19 +266,19 @@
             "PowerGeneratorPlacements": [],
             "DisinfectionStationPlacements": [],
             "DumbwaiterPlacements": [],
-            "HealthMulti": 0.8,
+            "HealthMulti": 0.4,
             "HealthPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
                 "End": 0.0
             },
-            "WeaponAmmoMulti": 0.4,
+            "WeaponAmmoMulti": 0.2,
             "WeaponAmmoPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
                 "End": 0.0
             },
-            "ToolAmmoMulti": 0.4,
+            "ToolAmmoMulti": 0.2,
             "ToolAmmoPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
@@ -2188,14 +2188,6 @@
             },
             "EventsOnEnter": [],
             "EventsOnOpenDoor": [
-                {
-                    "Type": 3,
-                    "SoundID": 1479064690
-                },
-                {
-                    "Type": 4,
-                    "Delay": 120
-                }
             ],
             "ProgressionPuzzleToEnter": {
                 "PuzzleType": 0,

@@ -12,6 +12,11 @@ Special thanks to my team (Scotch, Jonino, Cross) and friends.
 
 ## VERSION
 
+```1.1.1```
+
+- Weapon
+  - 
+
 ```1.1.0```
 
 - D3

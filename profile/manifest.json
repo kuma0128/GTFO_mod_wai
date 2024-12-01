@@ -1,7 +1,7 @@
 {
     "name": "Anarchy",
-    "version_number": "1.1.0",
-    "website_url": "https://github.com/kuma0128/GTFO_Anarchy/releases/tag/anarchy-1.1.0",
+    "version_number": "1.1.1",
+    "website_url": "https://github.com/kuma0128/GTFO_Anarchy/releases/tag/anarchy-1.1.1",
     "description": "Teamwork is your only hope.\nGet The F*** Out!",
     "dependencies": [
         "dakkhuza-MTFO-4.4.4",

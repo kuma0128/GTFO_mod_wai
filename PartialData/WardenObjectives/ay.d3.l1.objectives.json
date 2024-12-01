@@ -28,14 +28,58 @@
         "FogTransitionDurationOnElevatorLand": 0.0,
         "OnActivateOnSolveItem": false,
         "WavesOnActivate": [],
-        "EventsOnActivate": [],
+        "EventsOnActivate": [
+            {
+                "Type": "PlaySound",
+                "Condition": {
+                  "ConditionIndex": -1,
+                  "IsTrue": false
+                },
+                "Trigger": "OnEnd",
+                "ChainPuzzle": 4,
+                "UseStaticBioscanPoints": false,
+                "Layer": 0,
+                "DimensionIndex": "Reality",
+                "LocalIndex": "Zone_4",
+                "Delay": 3.0,
+                "Duration": 0.0,
+                "ClearDimension": false,
+                "WardenIntel": 0,
+                "CustomSubObjectiveHeader": 0,
+                "CustomSubObjective": 0,
+                "SoundID": 2134610730,
+                "SoundSubtitle": 0,
+                "DialogueID": 0,
+                "FogSetting": 0,
+                "FogTransitionDuration": 0.0,
+                "EnemyWaveData": {
+                  "WaveSettings": 0,
+                  "WavePopulation": 0,
+                  "AreaDistance": 2,
+                  "SpawnDelay": 0.0,
+                  "TriggerAlarm": false,
+                  "IntelMessage": 0
+                },
+                "EnemyID": 0,
+                "Position": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "Count": 0,
+                "Enabled": false,
+                "TerminalCommand": "None",
+                "TerminalCommandRule": "Normal",
+                "SustainedEventSlotIndex": 0,
+                "SustainedEventStateCount": 0,
+                "SustainedEventStateDuration": 0.0,
+                "SustainedEventDelay": 0.0
+              }
+        ],
         "StopAllWavesBeforeGotoWin": false,
         "WavesOnGotoWin": [],
         "WaveOnGotoWinTrigger": 0,
         "EventsOnGotoWin": [
-            {
-                "SoundID": 1479064690
-            },
             {
                 "Type": 4,
                 "Condition": {
@@ -169,7 +213,7 @@
                 "TerminalCommandRule": 0
             }
         ],
-        "EventsOnGotoWinTrigger": 0,
+        "EventsOnGotoWinTrigger": "OnObjectiveCompleted",
         "FogTransitionDataOnGotoWin": 0,
         "FogTransitionDurationOnGotoWin": 0.0,
         "ChainedPuzzleToActive": 0,
