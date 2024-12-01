@@ -12,11 +12,17 @@ Special thanks to my team (Scotch, Jonino, Cross) and friends.
 
 ## VERSION
 
+```1.1.2```
+
+- Updated icon and README
+- D3
+  - Added some hint Intels
+
 ```1.1.1```
 
+- Note: Please recreate your r2modman profile to display the survival time.
 - D3
-  - Fixed Survival Timer (This is critical bugs)
-    - Due to sloppy refactoring, the creation of secondary objects failed, forcing the termination of the timer settings on the main object.
+  - Deleted some events whish is unused
   - Changed resourse positions
     - The difficulty level remains unchanged.
 - Deleted unused plugins
@@ -27,21 +33,6 @@ Special thanks to my team (Scotch, Jonino, Cross) and friends.
 - D3
   - Release !!
 - Improved Chargetup for HEL Gun
-
-```1.0.2```
-
-- New weapon
-  - Added Thermal Rifle
-  - Added Thermal Heavy Assult Rifle
-  - Added Thermal Assult Rifle
-- Added useful plugins
-- C2
-  - Changed resourse positions
-    - The difficulty level remains unchanged.
-- D2
-  - Fixed scan positions
-    - The difficulty level remains unchanged.
-  - Added respawn room to prevent glitches
 
 ## Rundown Trailer
 
@@ -74,6 +65,11 @@ Most weapons are based on R8. Here are the modifications:
   - Changed penetration into 2
 - HEL Gun
   - Changed penetration into 2
+  
+- New weapon
+  - Thermal Rifle
+  - Added Thermal Heavy Assult Rifle
+  - Added Thermal Assult Rifle
 
 ## NOTE
 

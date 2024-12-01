@@ -1,5 +1,20 @@
 # CHANGELOG
 
+```1.0.2```
+
+- New weapon
+  - Thermal Rifle
+  - Added Thermal Heavy Assult Rifle
+  - Added Thermal Assult Rifle
+- Added useful plugins
+- C2
+  - Changed resourse positions
+    - The difficulty level remains unchanged.
+- D2
+  - Fixed scan positions
+    - The difficulty level remains unchanged.
+  - Added respawn room to prevent glitches
+  
 ```1.0.1```
 
 - Added useful plugins

@@ -1820,7 +1820,7 @@
                 "Middle": 0.0,
                 "End": 0.0
             },
-            "WeaponAmmoMulti": 4.0,
+            "WeaponAmmoMulti": 3.4,
             "WeaponAmmoPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
@@ -1879,6 +1879,50 @@
             "EventsOnUnlockDoor": [],
             "EventsOnOpenDoor": [
                 {
+                    "Type": 6,
+                    "Condition": {
+                        "ConditionIndex": -1,
+                        "IsTrue": false
+                    },
+                    "Trigger": 0,
+                    "ChainPuzzle": 0,
+                    "UseStaticBioscanPoints": false,
+                    "Layer": 0,
+                    "DimensionIndex": 0,
+                    "LocalIndex": 0,
+                    "Delay": 0.0,
+                    "Duration": 0.0,
+                    "ClearDimension": false,
+                    "WardenIntel": "<color>The exterior has been destroyed...</color>",
+                    "CustomSubObjectiveHeader": 0,
+                    "CustomSubObjective": 0,
+                    "SoundID": 0,
+                    "SoundSubtitle": 0,
+                    "DialogueID": 0,
+                    "FogSetting": 225,
+                    "FogTransitionDuration": 3.0,
+                    "EnemyWaveData": {
+                        "WaveSettings": 0,
+                        "WavePopulation": 0,
+                        "AreaDistance": 2,
+                        "SpawnDelay": 0.0,
+                        "TriggerAlarm": false,
+                        "IntelMessage": 0
+                    },
+                    "EnemyID": 0,
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "magnitude": 0.0,
+                        "sqrMagnitude": 0.0
+                    },
+                    "Count": 0,
+                    "Enabled": false,
+                    "TerminalCommand": 0,
+                    "TerminalCommandRule": 0
+                },
+                {
                     "Trigger": 0,
                     "Type": 9,
                     "Delay": 60.0,
@@ -1917,8 +1961,48 @@
             ],
             "EventsOnDoorScanStart": [
                 {
-                    "Type": 0,
-                    "WardenIntel": "<color=red>Security breaches are detected.</color>"
+                    "Type": 6,
+                    "Condition": {
+                        "ConditionIndex": -1,
+                        "IsTrue": false
+                    },
+                    "Trigger": 0,
+                    "ChainPuzzle": 0,
+                    "UseStaticBioscanPoints": false,
+                    "Layer": 0,
+                    "DimensionIndex": 0,
+                    "LocalIndex": 0,
+                    "Delay": 0.0,
+                    "Duration": 0.0,
+                    "ClearDimension": false,
+                    "WardenIntel": "Complete shutdown of the ventilation system.",
+                    "CustomSubObjectiveHeader": 0,
+                    "CustomSubObjective": 0,
+                    "SoundID": 3206896766,
+                    "SoundSubtitle": 0,
+                    "DialogueID": 0,
+                    "FogSetting": 224,
+                    "FogTransitionDuration": 30.0,
+                    "EnemyWaveData": {
+                        "WaveSettings": 0,
+                        "WavePopulation": 0,
+                        "AreaDistance": 2,
+                        "SpawnDelay": 0.0,
+                        "TriggerAlarm": false,
+                        "IntelMessage": 0
+                    },
+                    "EnemyID": 0,
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "magnitude": 0.0,
+                        "sqrMagnitude": 0.0
+                    },
+                    "Count": 0,
+                    "Enabled": false,
+                    "TerminalCommand": 0,
+                    "TerminalCommandRule": 0
                 },
                 {
                     "Type": 1,
@@ -1929,7 +2013,7 @@
                 },
                 {
                     "Type": 0,
-                    "WardenIntel": "<color=red>Opening the door.</color>",
+                    "WardenIntel": "<color=red>Security breaches are detected.Evacuate immediately!</color>",
                     "Delay": 180.0
                 }
             ],

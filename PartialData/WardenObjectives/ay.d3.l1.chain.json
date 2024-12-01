@@ -33,7 +33,7 @@
                 "WavePopulation": "Berserk_only",
                 "AreaDistance": 2,
                 "SpawnDelay": 0.0,
-                "TriggerAlarm": false,
+                "TriggerAlarm": true,
                 "IntelMessage": "<color=orange>[sys_purge]</color> - Starting up"
             }
         ],
@@ -106,14 +106,14 @@
                 "Delay": 0.0,
                 "Duration": 0.0,
                 "ClearDimension": false,
-                "WardenIntel": "Complete shutdown of the ventilation system.",
+                "WardenIntel": "Ventilation system is currently stopped.",
                 "CustomSubObjectiveHeader": 0,
                 "CustomSubObjective": 0,
                 "SoundID": 3206896766,
                 "SoundSubtitle": 0,
                 "DialogueID": 0,
                 "FogSetting": 223,
-                "FogTransitionDuration": 60.0,
+                "FogTransitionDuration": 30.0,
                 "EnemyWaveData": {
                     "WaveSettings": 0,
                     "WavePopulation": 0,
