@@ -90,6 +90,50 @@
             {
                 "Type": 3,
                 "SoundID": 1479064690
+            },
+            {
+                "Type": 6,
+                "Condition": {
+                    "ConditionIndex": -1,
+                    "IsTrue": false
+                },
+                "Trigger": 0,
+                "ChainPuzzle": 0,
+                "UseStaticBioscanPoints": false,
+                "Layer": 0,
+                "DimensionIndex": 0,
+                "LocalIndex": 0,
+                "Delay": 0.0,
+                "Duration": 0.0,
+                "ClearDimension": false,
+                "WardenIntel": "Complete shutdown of the ventilation system.",
+                "CustomSubObjectiveHeader": 0,
+                "CustomSubObjective": 0,
+                "SoundID": 3206896766,
+                "SoundSubtitle": 0,
+                "DialogueID": 0,
+                "FogSetting": 223,
+                "FogTransitionDuration": 60.0,
+                "EnemyWaveData": {
+                    "WaveSettings": 0,
+                    "WavePopulation": 0,
+                    "AreaDistance": 2,
+                    "SpawnDelay": 0.0,
+                    "TriggerAlarm": false,
+                    "IntelMessage": 0
+                },
+                "EnemyID": 0,
+                "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "magnitude": 0.0,
+                    "sqrMagnitude": 0.0
+                },
+                "Count": 0,
+                "Enabled": false,
+                "TerminalCommand": 0,
+                "TerminalCommandRule": 0
             }
         ],
         "EventsOnGotoWinTrigger": 0,
@@ -128,7 +172,7 @@
         "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
         "ActivateHSU_RequireItemAfterActivationInExitScan": false,
         "ActivateHSU_Events": [],
-        "Survival_TimeToActivate": 200.0,
+        "Survival_TimeToActivate": 210.0,
         "Survival_TimeToSurvive": 2100.0,
         "Survival_TimerTitle": 647325299,
         "Survival_TimerToActivateTitle": 573438790,

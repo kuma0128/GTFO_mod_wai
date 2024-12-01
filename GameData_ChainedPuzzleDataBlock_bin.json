@@ -3208,9 +3208,9 @@
       "TriggerAlarmOnActivate": true,
       "SurvivalWaveSettings": 1,
       "SurvivalWavePopulation": "Striker_major_Berserk_mixed",
-      "SurvivalWaveAreaDistance": 1,
+      "SurvivalWaveAreaDistance": 2,
       "DisableSurvivalWaveOnComplete": false,
-      "UseRandomPositions": false,
+      "UseRandomPositions": true,
       "WantedDistanceFromStartPos": 30.0,
       "WantedDistanceBetweenPuzzleComponents": 25.0,
       "ChainedPuzzle": [
@@ -5575,8 +5575,8 @@
     {
       "PublicAlarmName": "Class VI Cluster Alarm",
       "TriggerAlarmOnActivate": true,
-      "SurvivalWaveSettings": 1,
-      "SurvivalWavePopulation": "Berserk_only",
+      "SurvivalWaveSettings": 21,
+      "SurvivalWavePopulation": "Bullrush_major_hybrid_mix",
       "SurvivalWaveAreaDistance": 2,
       "DisableSurvivalWaveOnComplete": true,
       "UseRandomPositions": true,

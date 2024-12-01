@@ -15,8 +15,10 @@ Special thanks to my team (Scotch, Jonino, Cross) and friends.
 ```1.1.1```
 
 - D3
-  - Fixed Survival Timer
+  - Fixed Survival Timer (This is critical bugs)
     - Due to sloppy refactoring, the creation of secondary objects failed, forcing the termination of the timer settings on the main object.
+  - Changed resourse positions
+    - The difficulty level remains unchanged.
 - Deleted unused plugins
 - Shortened the level build time
 

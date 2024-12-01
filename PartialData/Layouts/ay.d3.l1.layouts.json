@@ -1105,7 +1105,7 @@
                 "Middle": 0.0,
                 "End": 0.0
             },
-            "ToolAmmoMulti": 0.4,
+            "ToolAmmoMulti": 0.0,
             "ToolAmmoPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
@@ -1229,7 +1229,7 @@
             "PowerGeneratorPlacements": [],
             "DisinfectionStationPlacements": [],
             "DumbwaiterPlacements": [],
-            "HealthMulti": 0.6,
+            "HealthMulti": 0.8,
             "HealthPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
@@ -1241,7 +1241,7 @@
                 "Middle": 0.0,
                 "End": 0.0
             },
-            "ToolAmmoMulti": 0.0,
+            "ToolAmmoMulti": 0.8,
             "ToolAmmoPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
@@ -1814,7 +1814,7 @@
             "PowerGeneratorPlacements": [],
             "DisinfectionStationPlacements": [],
             "DumbwaiterPlacements": [],
-            "HealthMulti": 1.6,
+            "HealthMulti": 2.0,
             "HealthPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
@@ -1826,7 +1826,7 @@
                 "Middle": 0.0,
                 "End": 0.0
             },
-            "ToolAmmoMulti": 1.0,
+            "ToolAmmoMulti": 2.0,
             "ToolAmmoPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
@@ -1881,7 +1881,25 @@
                 {
                     "Trigger": 0,
                     "Type": 9,
-                    "Delay": 0.0,
+                    "Delay": 60.0,
+                    "DimensionIndex": 0,
+                    "Layer": 0,
+                    "LocalIndex": 12,
+                    "Count": 0,
+                    "WorldEventObjectFilter": "",
+                    "EnemyWaveData": {
+                      "WaveSettings": "FINITE_12_SPAWNPOINT_cluster",
+                      "WavePopulation": "STRIKERS_FLYER_MIX",
+                      "AreaDistance": 2,
+                      "SpawnDelay": 0.0,
+                      "TriggerAlarm": false,
+                      "IntelMessage": ""
+                    }
+                },
+                {
+                    "Trigger": 0,
+                    "Type": 9,
+                    "Delay": 120.0,
                     "DimensionIndex": 0,
                     "Layer": 0,
                     "LocalIndex": 12,
