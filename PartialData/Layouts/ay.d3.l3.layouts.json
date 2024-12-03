@@ -148,13 +148,13 @@
             "PowerGeneratorPlacements": [],
             "DisinfectionStationPlacements": [],
             "DumbwaiterPlacements": [],
-            "HealthMulti": 0.8,
+            "HealthMulti": 1.6,
             "HealthPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,
                 "End": 0.0
             },
-            "WeaponAmmoMulti": 2.6,
+            "WeaponAmmoMulti": 3.0,
             "WeaponAmmoPlacement": {
                 "Start": 0.0,
                 "Middle": 0.0,

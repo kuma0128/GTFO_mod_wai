@@ -1,5 +1,11 @@
 # CHANGELOG
 
+```1.1.0```
+
+- D3
+  - Release !!
+- Improved Chargeup for HEL Gun
+
 ```1.0.2```
 
 - New weapon

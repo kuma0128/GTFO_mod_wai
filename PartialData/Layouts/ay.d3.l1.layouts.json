@@ -882,7 +882,7 @@
                 "Middle": 100.0,
                 "End": 100.0
             },
-            "ToolAmmoMulti": 2.0,
+            "ToolAmmoMulti": 2.4,
             "ToolAmmoPlacement": {
                 "Start": 0.0,
                 "Middle": 100.0,
@@ -1761,7 +1761,7 @@
                     "GroupType": 0,
                     "Difficulty": 7,
                     "Distribution": 2,
-                    "DistributionValue": 1.0
+                    "DistributionValue": 0.64
                 }
             ],
             "EnemyRespawning": false,

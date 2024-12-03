@@ -1,7 +1,7 @@
 {
     "name": "Anarchy",
-    "version_number": "1.1.2",
-    "website_url": "https://github.com/kuma0128/GTFO_Anarchy/releases/tag/anarchy-1.1.2",
+    "version_number": "1.1.3",
+    "website_url": "https://github.com/kuma0128/GTFO_Anarchy/releases/tag/anarchy-1.1.3",
     "description": "Teamwork is your only hope.\nGet The F*** Out!",
     "dependencies": [
         "dakkhuza-MTFO-4.4.4",
@@ -9,7 +9,6 @@
 		"Dinorush-ReDownFix-1.0.0",
 		"Dinorush-EnemyAnimationFix-1.1.0",
         "Dinorush-AccurateCrosshair-1.4.1",
-		"Extra-MyCoolPlugin3-999.999.9999",
         "Flowaria-FlowGeos-0.7.84",
 		"Flowaria-MTFO_Extension_PartialData-1.4.3",
 		"Flowaria-BetterDoorBulletCollision-1.0.1",

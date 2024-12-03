@@ -12,6 +12,10 @@ Special thanks to my team (Scotch, Jonino, Cross) and friends.
 
 ## VERSION
 
+```1.1.3```
+
+- Deleted MyCoolPlugin3
+
 ```1.1.2```
 
 - Updated icon and README
@@ -27,12 +31,6 @@ Special thanks to my team (Scotch, Jonino, Cross) and friends.
     - The difficulty level remains unchanged.
 - Deleted unused plugins
 - Shortened the level build time
-
-```1.1.0```
-
-- D3
-  - Release !!
-- Improved Chargetup for HEL Gun
 
 ## Rundown Trailer
 
@@ -67,7 +65,7 @@ Most weapons are based on R8. Here are the modifications:
   - Changed penetration into 2
   
 - New weapon
-  - Thermal Rifle
+  - Added Thermal Rifle
   - Added Thermal Heavy Assult Rifle
   - Added Thermal Assult Rifle
 
