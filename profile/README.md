@@ -15,22 +15,15 @@ Special thanks to my team (Scotch, Jonino, Cross) and friends.
 ```1.1.3```
 
 - Deleted MyCoolPlugin3
+- D1
+  - Balanced the resources
+    - The difficulty level remains unchanged.
 
 ```1.1.2```
 
 - Updated icon and README
 - D3
   - Added some hint Intels
-
-```1.1.1```
-
-- Note: Please recreate your r2modman profile to display the survival time.
-- D3
-  - Deleted some events whish is unused
-  - Changed resourse positions
-    - The difficulty level remains unchanged.
-- Deleted unused plugins
-- Shortened the level build time
 
 ## Rundown Trailer
 

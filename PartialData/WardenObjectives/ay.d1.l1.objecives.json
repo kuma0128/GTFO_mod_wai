@@ -1111,7 +1111,7 @@
                 "SoundSubtitle": 0,
                 "DialogueID": 0,
                 "FogSetting": 155,
-                "FogTransitionDuration": 1.0,
+                "FogTransitionDuration": 2.5,
                 "EnemyWaveData": {
                     "WaveSettings": 0,
                     "WavePopulation": 0,

@@ -1,5 +1,15 @@
 # CHANGELOG
 
+```1.1.1```
+
+- Note: Please recreate your r2modman profile to display the survival time.
+- D3
+  - Deleted some events whish is unused
+  - Changed resourse positions
+    - The difficulty level remains unchanged.
+- Deleted unused plugins
+- Shortened the level build time
+
 ```1.1.0```
 
 - D3
