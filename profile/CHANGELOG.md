@@ -1,5 +1,12 @@
 # CHANGELOG
 
+```1.1.3```
+
+- Deleted MyCoolPlugin3
+- D1
+  - Balanced the resources
+    - The difficulty level remains unchanged.
+
 ```1.1.1```
 
 - Note: Please recreate your r2modman profile to display the survival time.

@@ -1,7 +1,7 @@
 {
     "name": "Anarchy",
-    "version_number": "1.1.4",
-    "website_url": "https://github.com/kuma0128/GTFO_Anarchy/releases/tag/anarchy-1.1.4",
+    "version_number": "1.1.5",
+    "website_url": "https://github.com/kuma0128/GTFO_Anarchy/releases/tag/anarchy-1.1.5",
     "description": "Teamwork is your only hope.\nGet The F*** Out!",
     "dependencies": [
         "dakkhuza-MTFO-4.4.4",
@@ -16,10 +16,14 @@
 		"hirnukuono-WardenIntelOhBehave-0.0.1",
 		"hirnukuono-NoDownedBuzz-0.0.1",
 		"hirnukuono-AdvancedWardenObjective-1.2.4",
+		"hirnukuono-StuckEnemyFix-0.0.1",
+		"hirnukuono-DoorPanelFix-0.0.3",
+		"hirnukuono-ScoutScreamFix-0.0.1",
 		"Inas07-EOSExt_SecuritySensor-1.1.2",
         "Inas07-LocalProgression-1.1.10",
 		"Inas07-ExtraChainedPuzzleCustomization-1.6.7",
 		"Localia-PingEverything-3.0.0",
+		"Localia-DoorEnemyFix-1.0.0",
 		"ProjectZaero-Data_Sphere_Flavor_Pack-1.0.0",
 		"Red_Leicester_Cheese-CheeseGeos-0.1.2",
 		"Sam_D_B-SamGeos-1.0.5",
@@ -28,6 +32,9 @@
 		"randomuserhi-KillIndicatorFix-0.1.6",
 		"randomuserhi-AggroFix-0.0.2",
 		"randomuserhi-DMRReloadFix-0.0.5",
+		"randomuserhi-BioScannerFix-0.0.1",
+		"randomuserhi-GTFOSilentShotFix-0.0.2",
+		"randomuserhi-ShooterBugFix-0.0.5",
 		"Untilted-CleanerRundownMenu-1.0.1",
 		"Untilted-ShotgunCenterFire-1.0.1"
     ]

@@ -10,19 +10,28 @@ Thank you for playing! Enjoy the fight!
 
 Special thanks to my team (Scotch, Jonino, Cross) and friends.
 
+## NOTE
+
+- If the game fails to start or an error occurs, please try recreating your r2modman profile.
+- I do not recommend installing any mods that are not included in Anarchy, as doing so may cause unexpected errors.
+
 ## VERSION
+
+```1.1.5```
+
+- Added some plugins
+  - StuckEnemyFix
+  - DoorPanelFix
+  - ScoutScreamFix
+  - BioScannerFix
+  - GTFOSilentShotFix
+  - ShooterBugFix
+  - DoorEnemyFix
 
 ```1.1.4```
 
 - D1
   - Nerfed final error alarm
-
-```1.1.3```
-
-- Deleted MyCoolPlugin3
-- D1
-  - Balanced the resources
-    - The difficulty level remains unchanged.
 
 ## Rundown Trailer
 
@@ -60,10 +69,6 @@ Most weapons are based on R8. Here are the modifications:
   - Added Thermal Rifle
   - Added Thermal Heavy Assult Rifle
   - Added Thermal Assult Rifle
-
-## NOTE
-
-- If the game fails to start or an error occurs, please try recreating your r2modman profile.
 
 ## Collaborator
 
